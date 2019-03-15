@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools.android="http://schemas.android.com/apk/res-auto"
+    xmlns:toolsandroid="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/padding_text"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:weightSum="4"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_weight="0.7"
+                    android:id="@+id/txtStudentNameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_text"
+                    android:layout_marginTop="@dimen/padding_text"
+                    android:text="@string/name"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <TextView
+                    android:layout_weight="0.3"
+                    android:id="@+id/txtStudentName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_text"
+                    android:layout_marginTop="@dimen/padding_text"
+                    toolsandroid:text="Pratik Gondill"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                     />
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_weight="0.7"
+                android:id="@+id/txtMobileNoText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_text"
+                android:layout_marginTop="@dimen/padding_text"
+                android:text="@string/mobileno"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorPrimary"
+
+                android:textStyle="bold" />
+            <TextView
+                android:layout_weight="0.3"
+                android:id="@+id/txtMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_text"
+                android:layout_marginTop="@dimen/padding_text"
+                toolsandroid:text="9503758573"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+              />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_weight="0.7"
+                android:id="@+id/txtCityText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_text"
+                android:layout_marginTop="@dimen/padding_text"
+                android:text="@string/city"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorPrimary"
+
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_weight="0.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_text"
+                android:layout_marginTop="@dimen/padding_text"
+
+                toolsandroid:text="Karad"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_weight="0.7"
+                android:id="@+id/txtIsVerfied"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_text"
+                android:layout_marginTop="@dimen/padding_text"
+                android:text="@string/isVerified"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/colorPrimary"
+
+                android:textStyle="bold" />
+            <CheckBox
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/padding_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cdIsVerified"
+                />
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidPractice</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name:</string>
+    <string name="mobileno">Mobile No:</string>
+    <string name="city">City:</string>
+    <string name="isVerified">Verified:</string>
+</resources>

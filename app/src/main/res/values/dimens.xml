@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>.
+
+    <dimen name="key_height">54dp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="top_dist">30dp</dimen>
+    <dimen name="middle_dist">20dp</dimen>
+    <dimen name="header_side_margin_double">20dp</dimen>
+    <dimen name="header_side_margin">10dp</dimen>
+    <dimen name="menu_margin">10dp</dimen>
+    <dimen name="header_side_margin_half">50dp</dimen>
+    <dimen name="recycler_view_margin_top">70dp</dimen>
+    <dimen name="header_side_margin_half_half">5dp</dimen>
+    <dimen name="header_side_margin_half_half_payee">5dp</dimen>
+    <dimen name="status_bar_height">36px</dimen><!--38-->
+    <dimen name="padding_text">5dp</dimen>
+    <dimen name="image_logo_margin">10dp</dimen>
+    <dimen name="image_width">127dp</dimen>
+    <dimen name="image_height">127dp</dimen>
+</resources>
